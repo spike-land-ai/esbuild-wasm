@@ -2,19 +2,34 @@
   "name": "@spike-land-ai/esbuild-wasm",
   "version": "0.27.4",
   "description": "The cross-platform WebAssembly binary for esbuild, a JavaScript bundler.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/evanw/esbuild.git"
-  },
   "license": "MIT",
+  "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "main": "lib/main.js",
   "browser": "lib/browser.js",
   "types": "lib/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/main.d.ts",
+      "browser": "./lib/browser.js",
+      "import": "./lib/main.js",
+      "default": "./lib/main.js"
+    }
+  },
+  "files": [
+    "lib",
+    "bin",
+    "esbuild.wasm",
+    "README.md"
+  ],
   "directories": {
     "bin": "bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spike-land-ai/esbuild-wasm.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

@@ -1,3 +1,7 @@
 .changeset/
 .github/
 .nvmrc
+.git/
+node_modules/
+package-lock.json
+tsconfig.json
