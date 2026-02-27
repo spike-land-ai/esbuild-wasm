@@ -20,7 +20,8 @@
     "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.29.4"
+    "@changesets/cli": "^2.29.4",
+    "@spike-land-ai/eslint-config": "^2.0.0"
   },
   "overrides": {
     "@types/node": "^22.0.0"
