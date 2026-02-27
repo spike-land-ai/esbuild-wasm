@@ -12,3 +12,4 @@ jobs:
     with:
       has-build: false
       has-tests: false
+    secrets: inherit
