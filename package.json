@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
-    "@spike-land-ai/eslint-config": "^2.0.0"
+    "@spike-land-ai/eslint-config": "file:../../Developer/spike-land-ai/.github/packages/eslint-config"
   },
   "overrides": {
     "@types/node": "^22.0.0"
